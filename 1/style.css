@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+background: black;
+}
+span{ pointer-events: none    ;
+    height: 100px;
+    width: 100px;
+    background-image: url("https://cdn.iconscout.com/icon/free/png-512/free-heart-suit-card-37956.png?f=webp&w=256");
+    background-position:center;
+    background-size:cover ;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+   
+    transform: translate(-50%, -50%);
+    animation:  animate 6s linear  ;
+}
+
+
+
+@keyframes animate {
+    0% {
+        transform: translate(-50%, -50%) ;
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        transform: translate(-50%,-5000%);
+    }
+    
+}
