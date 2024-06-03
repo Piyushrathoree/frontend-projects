@@ -41,3 +41,26 @@ body{
     border-radius: 15px 15px 0 0;
     
 }
+/* .container2{
+    height: 100px;
+    width: 350px;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    background: #ffffff;
+    display: flex;
+  
+    justify-content: center;
+    align-items: center;
+ 
+}
+.container2 .hours,.minutes,.seconds{
+    height:100px ;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} */
+
